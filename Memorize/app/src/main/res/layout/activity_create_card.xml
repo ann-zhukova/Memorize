@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateCardActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="290dp"
+        android:layout_height="103dp"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="#928F66"
+        android:onClick="onClickSave"
+        android:text="@string/create"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frontSideCard"
+        app:layout_constraintVertical_bias="0.981" />
+
+    <EditText
+        android:id="@+id/frontSideCard"
+        android:layout_width="339dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginBottom="34dp"
+        android:autofillHints='"ENTER THE FRONT SIDE OF CARD"'
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/frontSideText"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/reverseSideCard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/reverseSideCard"
+        android:layout_width="349dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="449dp"
+        android:autofillHints="NEW CARD"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/reverseSideText"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frontSideCard" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Memorize</string>
+    <string name="memorize">Memorize!</string>
+    <string name="about_title">О программе</string>
+    <string name ="settings_title">Настройки</string>
+    <string name="title_activity_create_card">CreateCardActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="create">СОЗДАТЬ</string>
+    <string name="pref_size">Размер</string>
+    <integer name="card_flip_duration_full">1000</integer>
+    <integer name="card_flip_duration_half">500</integer>
+    <string name="CardText">Здесь может быть ваша карточка</string>
+    <string name="frontSideText">ВВЕДИТЕ ЛИЦЕВУЮ СТОРОНУ КАРТОЧКИ</string>
+    <string name="reverseSideText">ВВЕДИТЕ ОБОРОТНУЮ СТОРОНУ КАРТОЧКИ</string>
+    <string name="dev">Anna Zhukov App</string>
+    <string name="i_remember">ПОМНЮ ОТВЕТ</string>
+    <string name="i_forgot">ПОКАЗАТЬ КАРТОЧКУ</string>
+    <string name="delete_the_card">УДАЛИТЬ КАРТОЧКУ</string>
+    <string name="set">НАСТРОЙКИ</string>
+    <string name="create_a_new_card">СОЗДАТЬ НОВУЮ КАРТОЧКУ</string>
+    <string name="add_event">ДОБАВИТЬ СОБЫТИЕ</string>
+    <string name="titleText">Найдено карточек для повторения: </string>
+</resources>
